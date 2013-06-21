@@ -1,0 +1,102 @@
+<html>
+<head>
+<style>
+  #logo {
+    width: 388px;
+    height: 104px;
+    background-image: url('dot-sprites.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px; 
+    float: left;
+  }
+  #logo-text {
+    padding: 48px 108px 0px 108px;
+  }
+  #menu {
+    float: right;
+    padding: 70px 80px 0px 0px;
+  }
+  #content {
+    clear: both;
+    padding: 40px;
+    min-height: 200px; 
+  }
+  #footer {
+    text-align: center;
+  }
+</style>
+<script type="text/javascript">
+
+var logo = null;
+var goRight = false;
+var goLeft = false;
+var leftY = '-115px';
+var rightY = '0px';
+
+function moveRight() {
+  if (goRight) {
+  	var x = parseInt(logo.style.backgroundPositionX);
+		if (x < 263) {
+			logo.style.backgroundPositionX = x+3+'px';
+			setTimeout(moveRight,30); 
+		} else {
+			logo.style.backgroundPositionY = leftY;
+		}
+	}
+}
+
+function startRight() {
+  goLeft = false;
+  goRight = true;
+	logo.style.backgroundPositionY = rightY;
+  moveRight();
+}
+
+function moveLeft() {
+  if (goLeft) {
+  	var x = parseInt(logo.style.backgroundPositionX);
+		if (x > 0) {
+			logo.style.backgroundPositionX = x-3+'px';
+			setTimeout(moveLeft,30); 
+		} else {
+			logo.style.backgroundPositionY = rightY;
+		}
+	}
+}
+
+function startLeft() {
+  goLeft = true;
+  goRight = false;
+	logo.style.backgroundPositionY = leftY;
+  moveLeft();
+}
+
+function init() {
+  logo = document.getElementById('logo'); 
+  logo.style.backgroundPositionX = rightY;
+  logo.onmouseover = startRight;
+  logo.onmouseout = startLeft;
+}
+
+window.onload = init;
+
+</script>
+</head>
+<body>
+<div id="header">
+  <div id="logo" >
+    <div id="logo-text"><a href="#"><img src="logo-text.png"/></a></div>
+  </div>
+  <div id="menu">
+     Menu stuff goes here
+  </div>
+</div>
+<div id="content">
+   Main stuff goes here
+</div>
+<div id="footer">
+   Footer stuff goes here
+</div>
+</body>
+</html>
+  

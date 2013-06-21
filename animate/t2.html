@@ -1,0 +1,124 @@
+<html>
+<head>
+<style>
+  #logo {
+    width: 388px;
+    height: 104px;
+    background-image: url('dot-sprites.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px; 
+    float: left;
+  }
+  #logo-text {
+    padding: 48px 108px 0px 108px;
+  }
+  #menu {
+    float: right;
+    padding: 70px 80px 0px 0px;
+  }
+  #content {
+    clear: both;
+    padding: 40px;
+    min-height: 200px; 
+  }
+  #footer {
+    text-align: center;
+  }
+</style>
+<script type="text/javascript">
+
+var logo = null;
+var logoX = 0;
+var logoY = 0;
+var go = false;
+var goBack = false;
+var mouseX = 0;
+var leftY = -114; // -140
+var rightY = 26; // 0
+
+function move() {
+  if (go) {
+    var dotX = parseInt(logo.style.backgroundPositionX);
+    if (((mouseX - dotX) > 3) && (dotX < 263)) {
+      logo.style.backgroundPositionX = dotX+3+'px';
+      logo.style.backgroundPositionY = rightY+'px';
+      setTimeout(move,30); 
+    } else if (((dotX - mouseX) > 3) && (dotX > 0)) {
+      logo.style.backgroundPositionX = dotX-3+'px';
+      logo.style.backgroundPositionY = leftY+'px';
+      setTimeout(move,30); 
+    } else {
+      setTimeout(move,30); 
+    }
+  }
+}
+
+function moveBack() {
+  if (goBack) {
+    var x = parseInt(logo.style.backgroundPositionX);
+    if (x > 0) {
+      logo.style.backgroundPositionY = leftY+'px';
+      logo.style.backgroundPositionX = x-3+'px';
+      setTimeout(moveBack,30); 
+    } else {
+      logo.style.backgroundPositionY = rightY+'px';
+    }
+  }
+}
+
+function start() {
+  go = true;
+  goBack = false;
+  move();
+  return true;
+}
+
+function stop() {
+  go = false;
+  goBack = true;
+  moveBack();
+  return true;
+}
+
+function getMouseX(e) {
+  if (go) {
+    mouseX = e.pageX - logoX - 54; // 54 = half of dot
+    if (mouseX < 0) {
+      mouseX = 0;
+    }
+  }
+
+  return true;
+}
+
+function init() {
+  logo = document.getElementById('logo'); 
+  logoX = logo.getBoundingClientRect().left;
+  logo.style.backgroundPositionX = 0;
+  logo.onmouseover = start;
+  logo.onmouseout = stop;
+  document.onmousemove = getMouseX;
+}
+
+window.onload = init;
+
+</script>
+</head>
+<body>
+<div id="header">
+  <div id="logo" >
+    <div id="logo-text"><a href="#"><img src="logo-text.png"/></a></div>
+  </div>
+  <div id="menu">
+     Menu stuff goes here
+  </div>
+</div>
+<div id="content">
+   Main stuff goes here
+</div>
+<div id="footer">
+   Footer stuff goes here
+</div>
+</body>
+</html>
+  
