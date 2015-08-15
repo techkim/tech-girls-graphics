@@ -15,7 +15,7 @@
    id="svg3856"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="tech-girls-logo-lg.svg">
+   sodipodi:docname="dot-w4m2015.svg">
   <defs
      id="defs3858">
     <linearGradient
@@ -74,10 +74,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="927.86793"
+     inkscape:cx="506.43229"
      inkscape:cy="450.02561"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1144"
      inkscape:window-height="722"
@@ -92,19 +92,16 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="shoes" />
-  <g
      inkscape:label="Dot"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,227.63782)">
+     transform="translate(0,227.63782)"
+     style="display:inline">
     <g
        transform="matrix(21.525131,0,0,-21.525131,-2979.9906,8053.6035)"
        id="g3569">
@@ -115,7 +112,7 @@
            inkscape:connector-curvature="0"
            id="path3024"
            style="fill:#cd4e9a;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 0,0 c 0,-0.795 -0.645,-1.439 -1.44,-1.439 l -14.12,0 C -16.355,-1.439 -17,-0.795 -17,0 l 0,2.121 c 0,0.795 0.645,1.44 1.44,1.44 l 14.12,0 C -0.645,3.561 0,2.916 0,2.121 L 0,0 z" />
+           d="m 0,0 c 0,-0.795 -0.645,-1.439 -1.44,-1.439 l -14.12,0 C -16.355,-1.439 -17,-0.795 -17,0 l 0,2.121 c 0,0.795 0.645,1.44 1.44,1.44 l 14.12,0 C -0.645,3.561 0,2.916 0,2.121 L 0,0 Z" />
       </g>
       <g
          transform="translate(163.3193,345.6211)"
@@ -124,7 +121,7 @@
            inkscape:connector-curvature="0"
            id="path3028"
            style="fill:#a53d70;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 13.992,-0.009 13.987,-2 13.984,-2 -0.008,-1.991 0,0 z m 15.089,-3.665 c 0.543,0.359 0.903,0.975 0.903,1.674 l 0,1.982 C 15.992,1.099 15.091,2 13.984,2 L 0,2 C -1.107,2 -2.008,1.099 -2.008,-0.009 l 0,-1.982 c 0,-0.699 0.36,-1.315 0.903,-1.674 l -3.553,-7.408 c 0,-0.558 0.451,-0.927 1.008,-0.927 l 21.285,0 c 0.556,0 1.007,0.369 1.007,0.927 l -3.553,7.408 z" />
+           d="M 0,0 13.992,-0.009 13.987,-2 13.984,-2 -0.008,-1.991 0,0 Z m 15.089,-3.665 c 0.543,0.359 0.903,0.975 0.903,1.674 l 0,1.982 C 15.992,1.099 15.091,2 13.984,2 L 0,2 C -1.107,2 -2.008,1.099 -2.008,-0.009 l 0,-1.982 c 0,-0.699 0.36,-1.315 0.903,-1.674 l -3.553,-7.408 c 0,-0.558 0.451,-0.927 1.008,-0.927 l 21.285,0 c 0.556,0 1.007,0.369 1.007,0.927 l -3.553,7.408 z" />
       </g>
       <g
          transform="translate(163.3193,345.6211)"
@@ -133,7 +130,7 @@
            inkscape:connector-curvature="0"
            id="path3032"
            style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="M 0,0 13.992,-0.009 13.987,-2 13.984,-2 -0.008,-1.991 0,0 z" />
+           d="M 0,0 13.992,-0.009 13.987,-2 13.984,-2 -0.008,-1.991 0,0 Z" />
       </g>
       <g
          transform="translate(195.8745,362.5137)"
@@ -167,7 +164,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Text">
+     inkscape:label="Text"
+     style="display:inline">
     <flowRoot
        xml:space="preserve"
        id="flowRoot9074"
@@ -181,19 +179,19 @@
            y="966.04462"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff" /></flowRegion><flowPara
          id="flowPara9082"
-         style="-inkscape-font-specification:'Calibri Bold';font-family:Calibri;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">W4M2015</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Bold'">W4M2015</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9084"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:0;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.84;"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.83999999;fill:#000000;fill-opacity:0;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion9086"><rect
            id="rect9088"
            width="684.47937"
            height="56.568542"
            x="359.21024"
            y="1181.005"
-           style="fill:#000000;fill-opacity:0;-inkscape-font-specification:'Calibri, Normal';font-family:Calibri;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:60px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0" /></flowRegion><flowPara
          id="flowPara9090"
-         style="fill:#000000;fill-opacity:0;-inkscape-font-specification:'Calibri, Normal';font-family:Calibri;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:60px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;">tech-girls.org</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:0">tech-girls.org</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9632"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#a53d70;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
